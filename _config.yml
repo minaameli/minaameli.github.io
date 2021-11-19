@@ -1,9 +1,9 @@
 # main text of home
 name: Mina Ameli
-bio: A Dreamer
+bio: I shall either find a way or make one!
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: Mina Ameli
 
 # if it's an external image, update below for true
 # better with square images
@@ -55,7 +55,7 @@ facebook: ameli.mina
 authors:
   minaameli:
     name: Mina Ameli
-    bio: A Dreamer
+    bio: I shall either find a way or make one!
     external-image: true
     picture: assets/images/profile.png
     twitter: MinaAmeli
