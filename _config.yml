@@ -56,7 +56,7 @@ authors:
   minaameli:
     name: Mina Ameli
     bio: A Dreamer
-    external-image: true
+    external-image: false
     picture: assets/images/profile.png
     twitter: MinaAmeli
 
