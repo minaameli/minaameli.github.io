@@ -1,6 +1,6 @@
 # main text of home
 name: Mina Ameli
-bio: Never is late, Keep going, Keep growing ..
+bio: A Dreamer
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -14,7 +14,7 @@ picture: assets/images/profile.jpg
 # and specify source (external or local).
 resume: false
 resume-external: false
-resume-url: https://google.com/?q=my+resume
+# resume-url: https://google.com/?q=my+resume
 
 url: https://github.com/minaameli
 # your url: https://USERNAME.github.io
@@ -31,7 +31,7 @@ permalink: /:title/
 # if you don't want comments in your posts, leave categories empty
 disqus:
   shortname: mydisqus # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+  categories: [] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 facebook: ameli.mina
@@ -55,7 +55,7 @@ email: ameli.mina@gmail.com
 authors:
   johndoe:
     name: Mina Ameli
-    bio: Never is late, Keep going, Keep growing
+    bio: A Dreamer
     external-image: false
     picture: assets/images/profile.jpg
     twitter: MinaAmeli
@@ -75,11 +75,11 @@ pagination:
   permalink: "/:num/" # pagination link that will be appended
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+projects: false
 
 # if you don't need "about" or "blog", comment them out below
-about: true
-blog: true
+about: false
+blog: false
 
 # do you want to show the "read time" of the posts?
 read-time: true
