@@ -7,7 +7,7 @@ description: A blog about technology and stuff related
 
 # if it's an external image, update below for true
 # better with square images
-external-image: false
+external-image: true
 picture: assets/images/profile.png
 
 # If you want to include your resume, set to true
@@ -34,26 +34,26 @@ disqus:
   categories: [] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: ameli.mina
-twitter: MinaAmeli
-instagram: mina.ameli
-pinterest: minaameli
 linkedin: minaameli
-# youtube: myyoutube
-# spotify: myspotify
+twitter: MinaAmeli
 github: minaameli
 gitlab: mina.ameli
+email: ameli.mina@gmail.com
+medium: ameli.mina
+instagram: mina.ameli
+pinterest: minaameli
+facebook: ameli.mina
+# youtube: myyoutube
+# spotify: myspotify
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: ameli.mina
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: ameli.mina@gmail.com
 
 authors:
-  johndoe:
+  minaameli:
     name: Mina Ameli
     bio: A Dreamer
     external-image: false
