@@ -4,11 +4,6 @@ layout: compress
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    {% if site.analytics-google %}
-        {% include analytics-google.html %}
-    {% endif %}
-
     <meta charset="utf-8">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta name=author content="{{ site.name }}">
@@ -24,7 +19,9 @@ layout: compress
     {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
     {{ scss_sheet | scssify }}
     </style>
-
+    {% if site.google-tag-manager %}
+        {% include google-tag-manager-head.html %}
+    {% endif %} 
 </head>
 <body>
 
@@ -45,5 +42,8 @@ layout: compress
 
     {% include icons.html %}
 
+    {% if site.google-tag-manager %}
+        {% include google-tag-manager-body.html %}
+    {% endif %} 
 </body>
 </html>
