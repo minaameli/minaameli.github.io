@@ -4,6 +4,11 @@ layout: compress
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    {% if site.analytics-google %}
+        {% include analytics-google.html %}
+    {% endif %}
+
     <meta charset="utf-8">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta name=author content="{{ site.name }}">
@@ -16,17 +21,20 @@ layout: compress
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ "/feed.xml" }}" />
 
     <style>
-    {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
+    {% if site.dark-theme %}
+        {% capture scss_sheet %}{% include style-dark.scss %}{% endcapture %}
+    {% else %}
+        {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
+    {% endif %}
+
     {{ scss_sheet | scssify }}
     </style>
-    {% if site.google-tag-manager %}
-        {% include google-tag-manager-head.html %}
-    {% endif %} 
+
 </head>
 <body>
 
     <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
-        {% if page.tag %}
+        {% if page.layout == "post" %}
             <div class="post">
         {% else %}
             {% if showHeader != true %}
@@ -42,8 +50,5 @@ layout: compress
 
     {% include icons.html %}
 
-    {% if site.google-tag-manager %}
-        {% include google-tag-manager-body.html %}
-    {% endif %} 
 </body>
 </html>
