@@ -1,7 +1,14 @@
 <!-- To add more icons, duplicate a section and find yout icon here -> https://fontawesome.com/v6.0/icons -->
 
 <div class="social-links">
-        {% if site.scholar %}
+
+    {% if site.linkedin %}
+        <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank"  rel="noopener" alt="anchor link for social media linkedin" aria-label="anchor link for social media linkedin">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+    {% endif %}
+    
+    {% if site.scholar %}
         <a class="link" data-title="scholar.google.com/{{ site.pinterest }}" href="https://scholar.google.com/citations?user=4t78yE8AAAAJ&hl=en&oi=ao" target="_blank">
             <i class="fab fa-google-scholar"></i>
         </a>
@@ -10,6 +17,14 @@
     {% if site.twitter %}
         <a class="link" data-title="twitter.com/{{ site.twitter }}" href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener" alt="anchor link for social media twitter" aria-label="anchor link for social media twitter">
             <i class="fa-brands fa-x-twitter"></i>
+        </a>
+    {% endif %}
+
+       
+
+    {% if site.github %}
+        <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank"  rel="noopener" alt="anchor link for social media github" aria-label="anchor link for social media github">
+            <i class="fa-brands fa-github"></i>
         </a>
     {% endif %}
 
@@ -25,17 +40,7 @@
         </a>
     {% endif %}
 
-    {% if site.linkedin %}
-        <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank"  rel="noopener" alt="anchor link for social media linkedin" aria-label="anchor link for social media linkedin">
-            <i class="fa-brands fa-linkedin"></i>
-        </a>
-    {% endif %}
 
-    {% if site.github %}
-        <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank"  rel="noopener" alt="anchor link for social media github" aria-label="anchor link for social media github">
-            <i class="fa-brands fa-github"></i>
-        </a>
-    {% endif %}
 
      {% if site.spotify %}
         <a class="link" data-title="open.spotify.com/user/{{ site.spotify }}" href="https://open.spotify.com/user/{{ site.spotify }}" target="_blank">
