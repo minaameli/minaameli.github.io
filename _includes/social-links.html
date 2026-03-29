@@ -19,6 +19,18 @@
         </a>
     {% endif %}
 
+    {% if site.pinterest %}
+        <a class="link" data-title="pinterest.com/{{ site.pinterest }}" href="https://pinterest.com/{{ site.pinterest }}" target="_blank">
+            <svg class="icon icon-pinterest"><use xlink:href="#icon-pinterest"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.scholar %}
+        <a class="link" data-title="scholar.google.com/{{ site.pinterest }}" href="https://scholar.google.com/citations?user=4t78yE8AAAAJ&hl=en&oi=ao" target="_blank">
+            <svg class="icon icon-scholar"><use xlink:href="#icon-pinterest"></use></svg>
+        </a>
+    {% endif %}
+
     {% if site.linkedin %}
         <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank"  rel="noopener" alt="anchor link for social media linkedin" aria-label="anchor link for social media linkedin">
             <i class="fa-brands fa-linkedin"></i>
@@ -28,6 +40,12 @@
     {% if site.github %}
         <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank"  rel="noopener" alt="anchor link for social media github" aria-label="anchor link for social media github">
             <i class="fa-brands fa-github"></i>
+        </a>
+    {% endif %}
+
+     {% if site.spotify %}
+        <a class="link" data-title="open.spotify.com/user/{{ site.spotify }}" href="https://open.spotify.com/user/{{ site.spotify }}" target="_blank">
+            <svg class="icon icon-spotify"><use xlink:href="#icon-spotify"></use></svg>
         </a>
     {% endif %}
 
