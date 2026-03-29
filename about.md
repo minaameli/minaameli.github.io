@@ -4,7 +4,9 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>I am an Artificial Intelligence Engineer with experience in research and development across diverse domains. My work spans Computer Vision, Multimodal Data Analysis, and Machine Learning, with applications in Autonomous Systems, Industry 4.0, and Human–Computer Interaction.</p>
+<p>I am an Artificial Intelligence Engineer with experience in research and development across diverse domains. My work spans Computer Vision, Multimodal Data Analysis, and Machine Learning, with applications in Autonomous Systems, Industry 4.0, and Human–Computer Interaction. 
+In my spare time, I enjoy doing sports, cooking, and traveling.
+</p>
 
 <h2>Skills</h2>
 
