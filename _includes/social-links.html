@@ -1,9 +1,9 @@
 <!-- To add more icons, duplicate a section and find yout icon here -> https://fontawesome.com/v6.0/icons -->
 
 <div class="social-links">
-    {% if site.facebook %}
-        <a class="link" data-title="facebook.com/{{ site.facebook }}" href="https://facebook.com/{{ site.facebook }}" target="_blank" rel="noopener" alt="anchor link for social media facebook" aria-label="anchor link for social media facebook">
-            <i class="fa-brands fa-facebook"></i>
+        {% if site.scholar %}
+        <a class="link" data-title="scholar.google.com/{{ site.pinterest }}" href="https://scholar.google.com/citations?user=4t78yE8AAAAJ&hl=en&oi=ao" target="_blank">
+            <i class="ai ai-google-scholar"></i>
         </a>
     {% endif %}
 
@@ -21,13 +21,7 @@
 
     {% if site.pinterest %}
         <a class="link" data-title="pinterest.com/{{ site.pinterest }}" href="https://pinterest.com/{{ site.pinterest }}" target="_blank">
-            <svg class="icon icon-pinterest"><use xlink:href="#icon-pinterest"></use></svg>
-        </a>
-    {% endif %}
-
-    {% if site.scholar %}
-        <a class="link" data-title="scholar.google.com/{{ site.pinterest }}" href="https://scholar.google.com/citations?user=4t78yE8AAAAJ&hl=en&oi=ao" target="_blank">
-            <svg class="icon icon-scholar"><use xlink:href="#icon-pinterest"></use></svg>
+            <i class="fab fa-pinterest"></i>
         </a>
     {% endif %}
 
@@ -46,6 +40,12 @@
      {% if site.spotify %}
         <a class="link" data-title="open.spotify.com/user/{{ site.spotify }}" href="https://open.spotify.com/user/{{ site.spotify }}" target="_blank">
             <i class="fab fa-spotify"></i>
+        </a>
+    {% endif %}
+
+    {% if site.facebook %}
+        <a class="link" data-title="facebook.com/{{ site.facebook }}" href="https://facebook.com/{{ site.facebook }}" target="_blank" rel="noopener" alt="anchor link for social media facebook" aria-label="anchor link for social media facebook">
+            <i class="fa-brands fa-facebook"></i>
         </a>
     {% endif %}
 
