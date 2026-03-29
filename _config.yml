@@ -27,10 +27,11 @@ permalink: /:title/
 
 # To enable google analytics, supply your token below
 # analytics-google: 'UA-MYANALYTICS'
+google-tag-manager: 'GTM-5TPGBRX'
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: github # enter this from your disqus account
+  shortname: Mina-Ameli # enter this from your disqus account
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
@@ -48,18 +49,12 @@ researchgate: Mina-Ameli-2
 spotify: miinaiii
 
 authors:
-  johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
+  mina:
+    name: Mina Ameli
+    bio: I shall either find a way or make one!
     external-image: false
-    picture: assets/images/profile.jpg
-    twitter: johndoe
-  jamesfoster:
-    name: James Foster
-    bio: A Man who develops software with coffee
-    external-image: false
-    picture: assets/images/james.jpg
-    twitter: jamesfoster
+    picture: assets/images/profile_photo.png
+    twitter: MinaAmeli
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
