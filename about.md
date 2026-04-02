@@ -4,16 +4,14 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>I am an Artificial Intelligence Engineer with experience in research and development across diverse domains. My work spans Computer Vision, Multimodal Data Analysis, and Machine Learning, with applications in Autonomous Systems, Industry 4.0, and Human–Computer Interaction. 
-In my spare time, I enjoy doing sports, cooking, and traveling.
-</p>
+<p>My name is Mina.</p>
 
-<h2>Skills</h2>
+<p>I’m an AI engineer working on data in real-world applications.</p>
 
-<ul class="skill-list">
-	<li>Data Structures, Algorithms</li>
-	<li>C++, Python, Pyspark, ROS, Cuda</li>
-	<li>Tesorflow, Pytorch, OpenCV, PCL, Sklearn, FastAPI</li>
-	<li>MySQL, Microsoft Fabric, Databricks, Power BI</li>
-	<li>Git, Docker, Figma</li>
-</ul>
+<p>I like building things that don’t just work in theory.</p>
+
+<p>I’ve spent time in both research and industry, and I’m interested in the space in between.</p>
+
+<p>When I’m not working: sports, cooking, traveling.</p>
+
+
