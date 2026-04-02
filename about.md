@@ -10,7 +10,9 @@ layout: page
 
 <p>I like building things that don’t just work in theory.</p>
 
-<p>I’ve spent time in both research and industry, and I’m interested in the space in between.</p>
+<p>I’ve worked across research and industry.</p> 
+
+<p>I like the space in between.</p>
 
 <p>When I’m not working: sports, cooking, traveling.</p>
 
